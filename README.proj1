@@ -1,0 +1,5 @@
+Valgrind had an error when calling any of my syscalls 
+i dont know why though.
+
+Most to all my refrences where from the include/*
+folders where I found the methods.

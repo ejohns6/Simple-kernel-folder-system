@@ -1,0 +1,32 @@
+Simple Kernel folder system where there is add sys-calls where
+__NR_create_mbox_421	-Can create a block of data for a file
+__NR_remove_mbox_421	-Remove a block of data to delete a file
+__NR_count_mbox_421	-Count the blocks of data
+__NR_list_mbox_421	-list the the blocks of data
+__NR_send_msg_421	- creating a message in the kernel 
+__NR_recv_msg_421	- printing a message in the kernel
+__NR_peek_msg_421	- created a peek in the kernell
+__NR_count_msg_421	- counts the msg
+__NR_len_msg_421	- counts the length of the message
+
+
+
+Linux kernel
+============
+
+There are several guides for kernel developers and users. These guides can
+be rendered in a number of formats, like HTML and PDF. Please read
+Documentation/admin-guide/README.rst first.
+
+In order to build the documentation, use ``make htmldocs`` or
+``make pdfdocs``.  The formatted documentation can also be read online at:
+
+    https://www.kernel.org/doc/html/latest/
+
+There are various text files in the Documentation/ subdirectory,
+several of them using the Restructured Text markup notation.
+See Documentation/00-INDEX for a list of what is contained in each file.
+
+Please read the Documentation/process/changes.rst file, as it contains the
+requirements for building and running the kernel, and information about
+the problems which may result by upgrading your kernel.

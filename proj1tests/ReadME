@@ -1,0 +1,10 @@
+SingleMailBoxTests test for all the syscalls in both encryption and decyrption,
+with multiple variations on send, recv, and peek to try to catch specific cases.
+
+MultipleBoxTest is for test when multiple boxes for create and remv. During my
+debugging i was able to mix it up and try it with multiple messages to a mail
+box that was no the head.
+
+As of right now the code passes for everything and I am leaving the printk outputs
+so if/when it crashes the grader can have a better understanding why and 
+might able to leave a comment.
